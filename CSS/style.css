@@ -76,6 +76,10 @@ li {
 }
 
 /*Hero*/
+ 
+.hero {
+    background-color: #2E2F42;
+}
 
 .hero-title {
     font-family: 'Roboto';
@@ -83,7 +87,6 @@ li {
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
-    background: #2E2F42;
 
     color: #FFFFFF;
 }
@@ -174,4 +177,39 @@ li {
     letter-spacing: 0.02em;
 
     color: #434455;
+}
+
+/*Footer*/
+
+.footer{
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.footer-logo {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+   
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #4D5AE5;
+}
+
+.footer-color {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+   
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #F4F4FD;
 }
