@@ -10,7 +10,7 @@ body {
 
 /*Logo*/
 
-.logo-link{
+.logo-link link{
     font-family:"Raleway",sans-serif;
     font-weight:800;
     font-size:18px;
@@ -45,6 +45,10 @@ li {
  list-style:none;
 }
 
+.nav-page list{
+    list-style: none;
+    
+}
 .nav-catalog a {
     font-family:'Raleway',sans-serif;
     font-style:normal;
