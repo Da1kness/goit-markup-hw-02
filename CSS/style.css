@@ -1,31 +1,24 @@
-/*Style of the site*/
-
 :root{
  --background-color:#ffffff;
 }
 
-.main-page { 
- color: #434455;
- background-color: var(--background-color);
-}
-
 /*Logo*/
 
-.logo-link {
+.logo-link .link{
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
    
     display: flex;
     align-items: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
 
     color: #4D5AE5;
 }
 
-.logo-color {
+.logo-link .color {
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -33,7 +26,7 @@
    
     display: flex;
     align-items: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
 
     color: #2E2F42;
@@ -47,16 +40,18 @@ li {
 
 .nav-catalog a {
     font-family: 'Raleway',sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    text-decoration: none;
     
     color: #2E2F42;
 }
 
 .nav-catalog .link:hover,
 .nav-catalog .link:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .nav-connect a {
@@ -66,17 +61,23 @@ li {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    text-decoration: none;
 
     color: #434455;
 }
 
 .nav-connect .link:hover,
 .nav-connect .link:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 /*Hero*/
- 
+
+ .main-page { 
+ color: #434455;
+ background-color: var(--background-color);
+}
+
 .hero {
     background-color: #2E2F42;
 }
