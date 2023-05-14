@@ -1,51 +1,40 @@
 :root{
     background-color: #FFFFFF;
 }
-
 body { 
  color: #434455;
  background-color:var(#FFFFFF);
  font-family:"Roboto",sans-serif;
 }
-
 /*Logo*/
-
 .logo-link{
     font-family:"Roboto",sans-serif;
     font-weight:800;
     font-size:18px;
     line-height:1.17;
-   
     display:flex;
     align-items:center;
     letter-spacing:0.03em;
     text-transform:uppercase;
     text-decoration:none;
-
     color: #4d5ae5;
 }
-
 .logo-color {
     font-family:"Roboto",sans-serif;
     font-weight:800;
     font-size:18px;
     line-height:1.17;
-   
     display:flex;
     align-items:center;
     letter-spacing:0.03em;
     text-transform:uppercase;
     text-decoration:none;
-
     color: #2e2f42;
 }
-
 /*Catalog and contact*/
-
 li {
  list-style:none;
 }
-
 .nav-catalog a {
     font-family:'Raleway',sans-serif;
     font-style:normal;
@@ -53,17 +42,13 @@ li {
     font-size:16px;
     line-height:1.5;
     text-decoration:none;
-
     letter-spacing:0.02em;
-    
     color: #434455;
 }
-
 .nav-catalog .link:hover,
 .nav-catalog .link:focus {
     color:#404bbf;
 }
-
 .nav-connect a {
     font-family:'Roboto';
     font-style:normal;
@@ -75,23 +60,17 @@ li {
 
     color: #434455;
 }
-
 .nav-connect .link:hover,
 .nav-connect .link:focus {
     color: #404bbf;
 }
-
 .adress{
     font-style: normal;
 }
 /*Hero*/
-
- 
-
 .hero {
     background-color: #2e2f42;
 }
-
 .hero-title {
     font-family: 'Roboto';
     font-style: bold;
@@ -100,10 +79,8 @@ li {
     line-height:1.07;
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #FFFFFF;
 }
-
 .hero-button {
     background-color:#4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -112,130 +89,100 @@ li {
     font-size:16px;
     line-height:1.5;
     letter-spacing: 0.04em;
-
     color: #ffffff;
-
     cursor: pointer;
 }
-
 .hero-button:hover{
     color:#404BBF;
 }
 .hero-button:focus {
     color:#404BBF;
 }
-
 /*Section*/
-
 .section-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
-
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
     color: #2E2F42
 }
-
 /*Features*/
-
 .features-list .title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-
     letter-spacing: 0.02em;
-
     color: #2E2F42;
 }
-
 .features-list .text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
     letter-spacing: 0.02em;
-
     color: #434455;
 }
-
 /*Our Team*/
-
 .team-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-
     letter-spacing: 0.02em;
-
     color: #2E2F42;
 }
-
 .team-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
     letter-spacing: 0.02em;
-
     color: #434455;
 }
-
 /*Footer*/
-
 .footer{
     background-color: #2e2f42;
     color: #F4F4FD;
 }
-
 .footer-logo {
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-   
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
+    text-decoration:none;
     color: #4D5AE5;
 }
-
 .footer-color {
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-   
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
+    text-decoration:none;
     color: #F4F4FD;
 }
-
 /*Buttons*/
-
 .button-title{
     font-family: 'Roboto';
     font-Weight:bold;
     font-size: 56px;
     letter-spacing: 2%;
     line-height: 60px;
-
     color: #2E2F42;
 }
 
@@ -246,13 +193,10 @@ li {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-
     background: #404BBF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-
     color: #FFFFFF;
-
     cursor: pointer;
 }
 
@@ -263,12 +207,9 @@ li {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-
     color:#4D5AE5;
-
     cursor: pointer;
 }
 
@@ -280,9 +221,7 @@ li {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-
     letter-spacing: 0.02em;
-
     color: #2E2F42;
 }
 
@@ -292,8 +231,6 @@ li {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
     letter-spacing: 0.02em;
-
     color: #434455;
 }
