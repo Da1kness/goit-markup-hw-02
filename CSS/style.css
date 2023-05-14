@@ -1,0 +1,147 @@
+/*Style of the site*/
+
+:root{
+ --background-color:#ffffff;
+}
+
+.main-page { 
+ color: #434455;
+ background-color: var(--background-color);
+}
+
+/*Logo*/
+
+.logo-link {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+   
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #4D5AE5;
+}
+
+.logo-color {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+   
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #2E2F42;
+}
+
+/*Catalog and contact*/
+
+li {
+ list-style:none;
+}
+
+.nav-catalog a {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #2E2F42;
+}
+
+.nav-catalog .link:hover,
+.nav-catalog .link:focus {
+    color: #4D5AE5;
+}
+
+.nav-connect a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #434455;
+}
+
+.nav-connect .link:hover,
+.nav-connect .link:focus {
+    color: #4D5AE5;
+}
+
+/*Hero*/
+
+.hero-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    background: #2E2F42;
+
+    color: #FFFFFF;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: #4D5AE5;
+}
+
+/*Section*/
+
+.section-head {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: #2E2F42
+}
+
+.section-chapter {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    letter-spacing: 0.02em;
+
+    color: #2E2F42;
+}
+
+.section-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 0.02em;
+
+    color: #434455;
+}
