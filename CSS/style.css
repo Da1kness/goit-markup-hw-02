@@ -2,34 +2,41 @@
  --background-color:#ffffff;
 }
 
+.main-page { 
+ color: #434455;
+ background-color: var(--background-color);
+}
+
 /*Logo*/
 
 .logo-link{
-    font-family: 'Raleway',sans-serif;
+    font-family:"Roboto",sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
    
     display: flex;
     align-items: center;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
 
-    color: #4D5AE5;
+    color: #4d5ae5;
 }
 
-.logo-link .color {
-    font-family: 'Raleway',sans-serif;
+.logo-color {
+    font-family:"Roboto",sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
    
     display: flex;
     align-items: center;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
 
-    color: #2E2F42;
+    color: #2e2f42;
 }
 
 /*Catalog and contact*/
@@ -43,10 +50,12 @@ li {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     text-decoration: none;
+
+    letter-spacing: 0.02em;
     
-    color: #2E2F42;
+    color: #434455;
 }
 
 .nav-catalog .link:hover,
@@ -73,10 +82,7 @@ li {
 
 /*Hero*/
 
- .main-page { 
- color: #434455;
- background-color: var(--background-color);
-}
+ 
 
 .hero {
     background-color: #2E2F42;
