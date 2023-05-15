@@ -15,7 +15,7 @@ body {
 
 /*Logo*/
 
-.logo-links {
+.nav-list .link {
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -30,7 +30,7 @@ body {
     color:var(--primary-brand);
 }
 
-.logo-color {
+.nav-list .color {
     font-family:"Raleway",sans-serif;
     font-weight:800;
     font-size:18px;
@@ -51,12 +51,12 @@ li {
  list-style:none;
 }
 
-.nav-page{
+.nav-list{
     list-style: none;
     
 }
 
-.nav-catalog .link {
+.catalog-list .link {
     font-family:'Raleway',sans-serif;
     font-style:normal;
     font-weight:500;
@@ -69,8 +69,8 @@ li {
     color:var(--text);
 }
 
-.nav-catalog .link:hover,
-.nav-catalog .link:focus {
+.catalog-list .link:hover,
+.catalog-list .link:focus {
     color:var(--pressed-state);
 }
 
@@ -229,7 +229,7 @@ li {
 
 }
 
-/*Buttons*/
+/*Portfolio-Buttons*/
 
 .portfolio-list {
     font-family: "Roboto", sans-serif;
@@ -272,7 +272,7 @@ li {
     cursor: pointer;
 }
 
-/*Advanteges*/
+/*Portfolio-Advanteges*/
 
 .portfolio-list .title {
     font-family: 'Roboto';
