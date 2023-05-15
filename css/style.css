@@ -5,6 +5,7 @@
     --dark:#2E2F42;
     --text:#434455;
     --light:#E7E9FC; 
+    --cloud:#F4F4FD;
 }
 
 body { 
@@ -285,7 +286,7 @@ li {
     border-radius: 4px;
 
     color:var(--primary-brand);
-    background-color: var(--light);
+    background-color: var(--cloud);
     cursor: pointer;
 }
 
