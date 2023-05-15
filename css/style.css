@@ -1,16 +1,21 @@
 :root{
-    background-color: #FFFFFF;
+    --background-color: #FFFFFF;
+    --primary-brand:#4D5AE5;
+    --pressed-state:#404BBF;
+    --dark:#2E2F42;
+    --text:#434455;
+
 }
 
 body { 
- color: #434455;
- background-color:#FFFFFF;
+ color: var(--text);
+ background-color:var(--background-color);
  font-family:"Roboto",sans-serif;
 }
 
 /*Logo*/
 
-.logo-link {
+.logo-links {
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -22,7 +27,7 @@ body {
     text-transform: uppercase;
     text-decoration:none;
 
-    color: #4D5AE5;
+    color:var(--primary-brand);
 }
 
 .logo-color {
@@ -37,7 +42,7 @@ body {
     text-transform:uppercase;
     text-decoration:none;
 
-    color: #2e2f42;
+    color:var(--dark);
 }
 
 /*Catalog and contact*/
@@ -61,12 +66,12 @@ li {
 
     letter-spacing:0.02em;
 
-    color: #434455;
+    color:var(--text);
 }
 
 .nav-catalog .link:hover,
 .nav-catalog .link:focus {
-    color:#404BBF;
+    color:var(--pressed-state);
 }
 
 .nav-connect a {
@@ -78,12 +83,12 @@ li {
     letter-spacing:0.02em;
     text-decoration:none;
 
-    color: #434455;
+    color: var(--text);
 }
 
 .nav-connect .link:hover,
 .nav-connect .link:focus {
-    color: #404bbf;
+    color: var(--pressed-state);
 }
 .adress{
     font-style: normal;
@@ -92,7 +97,7 @@ li {
 /*Hero*/
 
 .hero {
-    background-color: #2e2f42;
+    background-color: var(--dark);
 }
 
 .hero-title {
@@ -105,11 +110,11 @@ li {
 
     letter-spacing: 0.02em;
 
-    color: #FFFFFF;
+    color:var(--background-color);
 }
 
 .hero-button {
-    background-color:#4D5AE5;
+    background-color:var(--primary-brand);
     font-family: "Roboto", sans-serif;
     font-style:normal;
     font-weight:500;
@@ -157,7 +162,7 @@ li {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text);
 }
 
 /*Our Team*/
@@ -169,7 +174,7 @@ li {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--dark);
 }
 
 .team-text {
@@ -179,7 +184,7 @@ li {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text);
 }
 
 /*Footer*/
@@ -201,7 +206,7 @@ li {
     text-transform: uppercase;
     text-decoration:none;
 
-    color: #4D5AE5;
+    color: var(--primary-brand);
 }
 
 .footer-color {
@@ -271,7 +276,7 @@ li {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color:var(--dark);
 }
 
 .advant-text {
@@ -281,5 +286,5 @@ li {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text);
 }
