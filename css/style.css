@@ -10,7 +10,7 @@ body {
 
 /*Logo*/
 
-.style-logo {
+.logo-link {
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -25,7 +25,7 @@ body {
     color: #4D5AE5;
 }
 
-.style-color {
+.logo-color {
     font-family:"Raleway",sans-serif;
     font-weight:800;
     font-size:18px;
@@ -50,7 +50,8 @@ li {
     list-style: none;
     
 }
-.nav-catalog .link {
+
+.nav-catalog a {
     font-family:'Raleway',sans-serif;
     font-style:normal;
     font-weight:500;
@@ -62,10 +63,12 @@ li {
 
     color: #434455;
 }
+
 .nav-catalog .link:hover,
 .nav-catalog .link:focus {
-    color:#404bbf;
+    color:#404BBF;
 }
+
 .nav-connect a {
     font-family:'Roboto';
     font-style:normal;
@@ -205,7 +208,7 @@ li {
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     display: flex;
     align-items: center;
 
@@ -218,17 +221,17 @@ li {
 
 /*Buttons*/
 
-.button-title{
-    font-family: 'Roboto';
-    font-Weight:bold;
-    font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
+.button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 
-    color: #2E2F42;
+    letter-spacing: 0.04em;
 }
 
-.button-purple {
+
+.button .purple {
     background-color:#404BBF;
     font-family: 'Roboto';
     font-style: normal;
@@ -244,7 +247,7 @@ li {
     cursor: pointer;
 }
 
-.button-white {
+.button .white {
     background-color:#E7E9FC;
     font-family: 'Roboto';
     font-style: normal;
@@ -261,9 +264,6 @@ li {
 
 /*Advanteges*/
 
-.advant{
-
-}
 .advant-title {
     font-family: 'Roboto';
     font-style: normal;
