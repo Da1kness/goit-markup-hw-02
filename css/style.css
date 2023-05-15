@@ -4,7 +4,7 @@
     --pressed-state:#404BBF;
     --dark:#2E2F42;
     --text:#434455;
-
+    --light:#E7E9FC; 
 }
 
 body { 
@@ -232,17 +232,7 @@ li {
 
 /*Portfolio-Buttons*/
 
-.portfolio-list {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    list-style: none;
-
-    letter-spacing: 0.04em;
-}
-
-
+/*
 .portfolio-list .purple {
     background-color:#404BBF;
     font-family: 'Roboto';
@@ -270,6 +260,37 @@ li {
     border-radius: 4px;
 
     color:#4D5AE5;
+    cursor: pointer;
+}
+*/
+
+.portfolio-list .list {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    list-style: none;
+
+    letter-spacing: 0.04em;
+}
+
+.portfolio-buttons {
+    font-family: "Roboto", sans-serif;
+
+    letter-spacing: 0.04em;
+
+    color:var(--primary-brand);
+    background-color: var(--light);
+}
+
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    border-radius: 4px;
     cursor: pointer;
 }
 
