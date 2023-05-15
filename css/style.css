@@ -274,13 +274,19 @@ li {
     letter-spacing: 0.04em;
 }
 
-.portfolio-buttons {
+.button {
     font-family: "Roboto", sans-serif;
 
     letter-spacing: 0.04em;
 
     color:var(--primary-brand);
     background-color: var(--light);
+}
+
+.button:hover,
+.button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 .button {
