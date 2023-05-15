@@ -286,20 +286,21 @@ li {
 
 /*Portfolio-Advanteges*/
 
-.advant-list{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:var(--dark)
-}
+.advant-list {}
 
 .advant-text {
     color: #434455;
     text-decoration: none;
 }
 
-.advant-title {}
+.advant-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--dark);
+    text-decoration: none;
+}
 
 .advant-img{}
 
