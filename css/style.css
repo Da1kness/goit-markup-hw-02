@@ -62,8 +62,8 @@ li {
     font-weight:500;
     font-size:16px;
     line-height:1.5;
+    
     text-decoration:none;
-
     letter-spacing:0.02em;
 
     color:var(--text);
@@ -80,6 +80,7 @@ li {
     font-weight:400;
     font-size:16px;
     line-height:24px;
+
     letter-spacing:0.02em;
     text-decoration:none;
 
@@ -274,7 +275,7 @@ li {
 
 /*Portfolio-Advanteges*/
 
-.portfolio-list .title {
+.advant-list .title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -282,9 +283,10 @@ li {
     line-height: 24px;
     letter-spacing: 0.02em;
     color:var(--dark);
+    text-decoration:none;
 }
 
-.portfolio-list .text {
+.advant-list .text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -292,4 +294,5 @@ li {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--text);
+    text-decoration:none;
 }
