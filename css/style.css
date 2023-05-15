@@ -56,7 +56,7 @@ li {
     
 }
 
-.nav-catalog a {
+.nav-catalog .link {
     font-family:'Raleway',sans-serif;
     font-style:normal;
     font-weight:500;
@@ -74,7 +74,7 @@ li {
     color:var(--pressed-state);
 }
 
-.nav-connect a {
+.connect-list .link {
     font-family:'Roboto';
     font-style:normal;
     font-weight:400;
@@ -86,8 +86,8 @@ li {
     color: var(--text);
 }
 
-.nav-connect .link:hover,
-.nav-connect .link:focus {
+.connect-list .link:hover,
+.connect-list .link:focus {
     color: var(--pressed-state);
 }
 .adress{
@@ -198,7 +198,7 @@ li {
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     display: flex;
     align-items: center;
 
@@ -236,12 +236,13 @@ li {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    list-style: none;
 
     letter-spacing: 0.04em;
 }
 
 
-.button-list .purple {
+.portfolio-list .purple {
     background-color:#404BBF;
     font-family: 'Roboto';
     font-style: normal;
@@ -256,7 +257,7 @@ li {
     cursor: pointer;
 }
 
-.button-list .white {
+.portfolio-list .white {
     background-color:#E7E9FC;
     font-family: 'Roboto';
     font-style: normal;
@@ -273,7 +274,7 @@ li {
 
 /*Advanteges*/
 
-.advant-list .title {
+.portfolio-list .title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -283,7 +284,7 @@ li {
     color:var(--dark);
 }
 
-.advant-list .text {
+.portfolio-list .text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
