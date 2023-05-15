@@ -62,7 +62,7 @@ li {
     font-weight:500;
     font-size:16px;
     line-height:1.5;
-    
+
     text-decoration:none;
     letter-spacing:0.02em;
 
@@ -281,9 +281,11 @@ li {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 0.02em;
-    color:var(--dark);
     text-decoration:none;
+
+    letter-spacing: 0.02em;
+
+    color:var(--dark);
 }
 
 .advant-list .text {
@@ -292,7 +294,9 @@ li {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--text);
     text-decoration:none;
+
+    letter-spacing: 0.02em;
+
+    color: var(--text);
 }
