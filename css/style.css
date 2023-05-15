@@ -295,6 +295,7 @@ li {
     color: #FFFFFF;
     background-color: #404BBF;
 }
+
 /*Portfolio-Advanteges*/
 
 .advant-list .title {
@@ -322,3 +323,6 @@ li {
 
     color: var(--text);
 }
+
+.advant-img{}
+
