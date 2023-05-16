@@ -167,6 +167,22 @@ li {
     list-style: none;
 }
 
+
+/*Our Team*/
+
+.team-list .title {
+    background-color: #F4F4FD;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.11;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
 .team-list .text {
     font-family: 'Roboto';
     font-style: normal;
