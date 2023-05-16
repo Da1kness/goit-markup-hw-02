@@ -179,6 +179,10 @@ li {
     color: #2E2F42
 }
 
+.work-list {
+    list-style: none;
+}
+
 /*Team*/
 
 .team-title {
