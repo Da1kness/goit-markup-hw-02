@@ -31,7 +31,7 @@ body {
     color:var(--primary-brand);
 }
 
-.logo-span {
+.logo-header {
     font-family:"Raleway",sans-serif;
     font-weight:800;
     font-size:18px;
@@ -46,9 +46,9 @@ body {
     color:var(--dark);
 }
 
-.h-span {
+/*.h-span {
     color:var(--dark);
-}
+}*/
 
 /*Catalog and contact*/
 
@@ -251,7 +251,7 @@ li {
     text-decoration: none;
 }
 
-.logo-span {
+.logo-footer {
     color: #F4F4FD;
     text-decoration: none;
 }
