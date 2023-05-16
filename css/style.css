@@ -47,7 +47,7 @@ body {
 }
 
 .h-span {
-    color: #2E2F42;
+    color:var(--dark);
 }
 
 /*Catalog and contact*/
@@ -56,12 +56,11 @@ li {
  list-style:none;
 }
 
-.nav-list{
+.header-nav{
     list-style: none;
-    
 }
 
-.catalog-list .link {
+.catalog-link {
     font-family:'Raleway',sans-serif;
     font-style:normal;
     font-weight:500;
@@ -74,12 +73,12 @@ li {
     color:var(--text);
 }
 
-.catalog-list .link:hover,
-.catalog-list .link:focus {
+.catalog-link:hover,
+.catalog-link:focus {
     color:var(--pressed-state);
 }
 
-.connect-list .link {
+.contact-address-link {
     font-family:'Roboto';
     font-style:normal;
     font-weight:400;
@@ -92,8 +91,8 @@ li {
     color: var(--text);
 }
 
-.connect-list .link:hover,
-.connect-list .link:focus {
+.contact-address-link:hover,
+.contact-address-link:focus {
     color: var(--pressed-state);
 }
 .adress{
