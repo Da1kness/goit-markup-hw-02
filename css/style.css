@@ -2,7 +2,7 @@
     --background-color: #FFFFFF;
     --primary-brand:#4D5AE5;
     --pressed-state:#404BBF;
-    --dark:#2E2F42;
+    --dark:#2e2f42;
     --text:#434455;
     --light:#E7E9FC; 
     --cloud:#F4F4FD;
@@ -70,12 +70,16 @@ li {
     text-decoration:none;
     letter-spacing:0.02em;
 
-    color:var(--text);
+    color:var(--dark);
 }
 
 .catalog-link:hover,
 .catalog-link:focus {
     color:var(--pressed-state);
+}
+
+.contact-address{
+    font-style:normal;
 }
 
 .contact-address-link {
@@ -95,10 +99,6 @@ li {
 .contact-address-link:focus {
     color: var(--pressed-state);
 }
-.adress{
-    font-style: normal;
-}
-
 /*Hero*/
 
 .hero {
