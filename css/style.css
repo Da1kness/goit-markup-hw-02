@@ -139,6 +139,11 @@ li {
 
 /*Work*/
 
+.work {
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+} 
+
 .work-title {
     font-family: 'Roboto';
     font-style: normal;
@@ -167,53 +172,7 @@ li {
     list-style: none;
 }
 
-
-
-/*Features
-
-.features-list .title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.features-list .text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--text);
-}
-
-.features-list .text:hover,
-.features-list .text:focus {
-    background-color: #404BBF;
-}
-*/
-
-/*Our Team*/
-
-.team-list .title {
-    background-color: #F4F4FD;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.11;
-    text-align: center;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--dark);
-}
-
-.team-list .text {
+.team-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
