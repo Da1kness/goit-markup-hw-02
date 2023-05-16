@@ -135,9 +135,24 @@ li {
     color:#404BBF;
 }
 
-/*Section*/
+/*Sections*/
 
-.section-title {
+/*Work*/
+
+.work-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42
+}
+
+/*Team*/
+
+.team-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -168,6 +183,11 @@ li {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--text);
+}
+
+.features-list .text:hover,
+.features-list .text:focus {
+    background-color: #404BBF;
 }
 
 /*Our Team*/
