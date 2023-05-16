@@ -133,9 +133,11 @@ li {
 .hero-button:hover,
 .hero-button:focus {
     color:#404BBF;
+    background-color: #404BBF;
 }
 
 /*Sections*/
+
 /*Features*/
 
 .features {}
@@ -249,6 +251,8 @@ li {
     line-height:1.5;
     letter-spacing: 0.02em;
 }
+
+/*Portfolio*/
 
 /*Portfolio-Buttons*/
 
