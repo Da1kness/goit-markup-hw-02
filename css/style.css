@@ -197,6 +197,9 @@ li {
 
 /*Our Team*/
 
+.team {
+    background-color: #F4F4FD;
+}
 .team-list .title {
     background-color: #F4F4FD;
     font-family: 'Roboto';
@@ -219,6 +222,10 @@ li {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--text);
+    background-color: #FFFFFF;
+}
+
+.team-item {
     background-color: #FFFFFF;
 }
 
