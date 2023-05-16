@@ -334,7 +334,7 @@ li {
 
 .advant-text {
     color: #434455;
-    text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 .advant-title {
@@ -343,7 +343,6 @@ li {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--dark);
-    text-decoration: none;
 }
 
 .advant-link {
