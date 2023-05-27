@@ -9,9 +9,13 @@
 }
 
 body { 
- color: #434455;;
+ color:var(--text);
  background-color:var(--background-color);
  font-family:"Roboto",sans-serif;
+}
+
+.link {
+    text-decoration: none;
 }
 
 /*Logo*/
@@ -21,8 +25,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
 
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -32,17 +34,6 @@ body {
 }
 
 .logo-header {
-    font-family:"Raleway",sans-serif;
-    font-weight:800;
-    font-size:18px;
-    line-height:1.17;
-    display:flex;
-    align-items:center;
-
-    letter-spacing:0.03em;
-    text-transform:uppercase;
-    text-decoration:none;
-
     color:var(--dark);
 }
 
@@ -52,8 +43,8 @@ body {
 
 /*Catalog and contact*/
 
-li {
- list-style:none;
+ul {
+    list-style:none;
 }
 
 .header-nav{
@@ -61,8 +52,6 @@ li {
 }
 
 .catalog-link {
-    font-family:'Raleway',sans-serif;
-    font-style:normal;
     font-weight:500;
     font-size:16px;
     line-height:1.5;
@@ -83,11 +72,8 @@ li {
 }
 
 .contact-address-link {
-    font-family:'Roboto';
-    font-style:normal;
-    font-weight:400;
     font-size:16px;
-    line-height:24px;
+    line-height:1.5;
 
     letter-spacing:0.02em;
     text-decoration:none;
@@ -106,8 +92,6 @@ li {
 }
 
 .hero-title {
-    font-family: 'Roboto';
-    font-style: bold;
     font-weight: 700;
     font-size:56px;
     line-height:1.07;
@@ -126,13 +110,12 @@ li {
     font-size:16px;
     line-height:1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color:var(--background-color);
     cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    color:#404BBF;
     background-color: #404BBF;
 }
 
@@ -145,21 +128,16 @@ li {
 .features-title{}
 
 .features-item-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height:1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color:var(--dark);
 }
 
 .features-item-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height:1.5;
     letter-spacing: 0.02em;
     color: var(--text);
 }
@@ -205,59 +183,37 @@ li {
     background-color: #F4F4FD;
 }
 .team-list .title {
-    background-color: #F4F4FD;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.11;
     text-align: center;
-    line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--dark);
-    list-style: none;
 }
 
 .team-list .text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text);
-    background-color: #FFFFFF;
 }
 
 .team-item {
-    background-color: #FFFFFF;
+    background-color:var(--background-color);
 }
 
 /*Footer*/
 
 .footer{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-
-    letter-spacing: 0.03em;
-
-    text-transform: uppercase;
-
     background-color: var(--dark);
-    color:var(--primary-brand);
-
-    text-decoration: none;
 }
 
 .logo-footer {
-    color: #F4F4FD;
-    text-decoration: none;
+    color:var(--cloud);
 }
 
 .footer-text {
-    color:#F4F4FD;;
+    color:var(--cloud);
     font-size: 16px;
     line-height:1.5;
     letter-spacing: 0.02em;
@@ -337,7 +293,7 @@ li {
 .advant-item {}
 
 .advant-text {
-    color: #434455;
+    color: var(--text);
     letter-spacing: 0.02em;
 }
 
